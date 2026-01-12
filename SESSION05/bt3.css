@@ -1,0 +1,23 @@
+.services {
+  background-color: #f4f4f9;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.services h2 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.services p {
+  margin: 5px 0 15px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 5px 0;
+}

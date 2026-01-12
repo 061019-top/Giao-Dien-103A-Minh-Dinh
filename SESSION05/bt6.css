@@ -1,0 +1,37 @@
+.doctor, .services {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.doctor h2, .services h2 {
+  color: #1e90ff;
+  margin-bottom: 15px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.profile img:hover {
+  background-color: #e6f7ff;
+}
+
+.profile h3 {
+  margin: 10px 0 5px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 5px 0;
+}

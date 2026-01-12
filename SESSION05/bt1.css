@@ -1,0 +1,19 @@
+header {
+  background-color: #1eff29; 
+  color: black;              
+  text-align: center;       
+  padding: 20px;             
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 18px;
+  font-style: italic;
+}
