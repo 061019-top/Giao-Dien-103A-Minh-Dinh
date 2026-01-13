@@ -1,6 +1,6 @@
 body {
   font-family: cursive;
-  background-color: #fff7ed;
+  background-color: #b56d16;
   color: #3f2a1d;
   font-size: 18px;
 }
@@ -13,7 +13,7 @@ h1 {
 }
 
 .menu {
-  background-color: #fed7aa;
+  background-color: #FFFFFF;
   text-align: center;
 }
 
@@ -21,6 +21,7 @@ h1 {
   color: #7c2d12;
   text-decoration: none;
   font-weight: bold;
+  background-color: #FFFFFF;
 }
 
 .menu a:hover {
@@ -30,14 +31,14 @@ h1 {
 
 .banner {
   text-align: center;
-  background-color: #fff7ed;
+  background-color: #FFFFFF;
 }
 
 .section {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
-.section h2 {
+.section {
   color: #92400e;
   font-size: 24px;
 }
