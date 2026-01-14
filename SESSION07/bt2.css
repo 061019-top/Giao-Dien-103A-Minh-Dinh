@@ -1,0 +1,13 @@
+.main{
+    width: 300px;
+    height: 100px;
+    border: 2px solid #1eff29;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    margin-top: 10px;
+}
+p{
+    margin-top: 4px;
+}

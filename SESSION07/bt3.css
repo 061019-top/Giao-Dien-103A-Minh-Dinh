@@ -1,0 +1,28 @@
+.information {
+    border: 1px solid black;
+    width: 500px;
+    
+    padding: 5px 20px;
+}
+img{
+    width: 540px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+p{
+    font-size: 20px;
+}
+b::before{
+    content: "⭐️ ";
+}
+b{
+    color: #FF6600;
+}
+h3{
+    color: #7CFF6E;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+p{
+    color: #555555;
+}

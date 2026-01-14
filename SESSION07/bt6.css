@@ -1,0 +1,38 @@
+body{
+    background-color: #F1F4F9;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+ .card {
+    background-color: #ffffff;
+    border: 0px solid;
+    border-radius: 16px;
+    width:500px;
+    padding: 20px;
+    padding-top: 0px;
+    
+}
+.status {
+    width: 150px;
+    height: 30px;
+    background-color: #FFE2B3;
+    color: #B36B00;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+    left: 350px;
+}
+h2{
+    margin-top: 0px;
+}
+p + p{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.time p {
+    margin: 15px;
+    color: #898F97;
+    margin-left: 0px;
+}

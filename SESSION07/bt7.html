@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bt7.css">
+    <title>btvn7</title>
+</head>
+<body>
+    <form action="http://www.myserver.com" method="post">
+        <h1>Biểu Mẫu Feedback Phòng Khám Nha Khoa </h1>
+        <label for="name">Họ và tên</label>
+        <input type="text" name="name" id="name" placeholder="Nhập họ tên">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+        <label for="service">Dịch vụ đã sử dụng</label>
+        <select name="service" id="service">
+            <option value="Khám răng tổng quát">Khám răng tổng quát</option>
+            <option value="Niềng răng">Niềng răng</option>
+            <option value="Cấy ghép Implant">Cấy ghép Implant</option>
+            <option value="Khám răng định ký">Khám răng định kỳ</option>
+        </select>
+        <label for="rate">Mức độ hài lòng</label>
+            <select name="rate" id="rate">
+                <option value="Rất hài lòng">Rất hài lòng</option>
+                <option value="Hài lòng">Hài lòng</option>
+                <option value="Bình thường">Bình thường</option>
+                <option value="Tệ">Tệ</option>
+                <option value="Rất tệ">Rất tệ</option>
+            </select>
+        <label for="note">Nội dung phản hồi</label>
+        <textarea name="note" id="note" placeholder="Hãy cho chúng tôi biết phản hồi của bạn..."></textarea>
+        <button type="submit">Gửi feedback</button>
+    </form>
+</body>
+</html>

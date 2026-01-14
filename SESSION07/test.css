@@ -1,0 +1,32 @@
+/* --- Trạng thái bình thường --- */
+.btn-gioi-thieu {
+  /* 1. Cài đặt màu sắc ban đầu */
+  color: #A53E1C; /* Màu chữ nâu đỏ (giống video) */
+  background-color: transparent; /* Nền trong suốt */
+  
+  /* 2. Cài đặt kiểu dáng nút */
+  border: none; /* Không viền (hoặc tùy chỉnh nếu cần) */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 30px; /* Tạo khoảng cách để nút trông to ra */
+  border-radius: 12px; /* Bo tròn góc */
+  cursor: pointer;
+  
+  /* QUAN TRỌNG NHẤT: Tạo hiệu ứng chuyển đổi mượt mà */
+  /* "all" có nghĩa là áp dụng cho cả màu sắc VÀ kích thước */
+  /* "0.3s" là thời gian diễn ra hiệu ứng (nhanh/chậm tùy chỉnh ở đây) */
+  transition: all 0.3s ease-in-out;
+}
+
+/* --- Trạng thái khi di chuột vào (Hover) --- */
+.btn-gioi-thieu:hover {
+  /* 1. Đổi màu nền và màu chữ */
+  background-color: #A53E1C; 
+  color: white; 
+  
+  /* 2. PHÓNG TO NÚT */
+  /* scale(1.1) nghĩa là phóng to lên 110% so với kích thước gốc */
+  /* Bạn có thể chỉnh thành 1.05 (nhỏ hơn chút) hoặc 1.2 (to hơn chút) */
+  transform: scale(1.1); 
+}
