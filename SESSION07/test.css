@@ -1,0 +1,28 @@
+/* 1. Định nghĩa kịch bản chuyển động (Keyframes) */
+@keyframes truot-len {
+  0% {
+    opacity: 0;                 /* Bắt đầu: Trong suốt (ẩn) */
+    transform: translateY(30px); /* Bắt đầu: Nằm thấp xuống 30px */
+  }
+  100% {
+    opacity: 1;                 /* Kết thúc: Hiện rõ 100% */
+    transform: translateY(0);    /* Kết thúc: Về đúng vị trí ban đầu */
+  }
+}
+
+/* 2. Class để áp dụng hiệu ứng */
+.hieu-ung-vao {
+  opacity: 0; /* Mặc định ẩn đi để chờ animation chạy */
+  animation: truot-len 1s ease-out forwards; /* Chạy trong 1 giây, kiểu chuyển động mượt, giữ nguyên trạng thái cuối */
+}
+
+/* --- MẸO NÂNG CAO: Làm từng cái hiện ra lần lượt (Staggering) --- */
+/* Cái thứ 2 hiện chậm hơn cái 1 chút (0.2s) */
+.delay-1 {
+  animation-delay: 0.2s; 
+}
+
+/* Cái thứ 3 hiện chậm hơn nữa (0.4s) */
+.delay-2 {
+  animation-delay: 0.4s;
+}

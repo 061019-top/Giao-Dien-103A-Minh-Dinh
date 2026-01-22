@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đặt Lịch</title>
+</head>
+<body>
+
+    <h1>Form Đặt Lịch Tư Vấn Học Tập</h1>
+
+    <form>
+        <table border="0">
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="fullname" size="30"></td>
+            </tr>
+
+            <tr>
+                <td>Chọn ngày giờ:</td>
+                <td><input type="datetime-local" name="datetime"></td>
+            </tr>
+
+            <tr>
+                <td>Loại dịch vụ:</td>
+                <td>
+                    <select name="service">
+                        <option value="hoc-tap">Tư vấn học tập</option>
+                        <option value="huong-nghiep">Hướng nghiệp</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">Ghi chú:</td>
+                <td>
+                    <textarea name="note" rows="4" cols="35"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="submit" value="Đặt lịch">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

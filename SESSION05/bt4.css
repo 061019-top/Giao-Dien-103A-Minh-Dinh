@@ -1,0 +1,16 @@
+.about, .contact {
+  background-color: #f4f4f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about h2, .contact h2 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.about p, .contact p {
+  margin: 5px 0;
+  line-height: 1.6;
+}

@@ -1,0 +1,22 @@
+.banner{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+b{
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+       background-color: #1eff29;
+}
+span{
+    display: block;
+    background-color:#ffffff;
+    height: 30px;
+}
+u{
+        text-decoration: underline dotted;
+}

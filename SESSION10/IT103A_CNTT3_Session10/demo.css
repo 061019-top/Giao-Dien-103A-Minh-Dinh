@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+  display: flex; /* Thuộc tính bắt buộc để định nghĩ flexbox */
+  flex-direction: row; /* Thay đổi hướng hiển thị của các phần tử */
+  justify-content: center; /* Luôn luôn đi với trục main axis */
+  align-items: center; /* Luôn luôn đi với trục cross axis */
+  gap: 10px; /* Giúp ngăn cách các phần tử trong flex container */
+  flex-wrap: wrap; /* Giúp các phần tử xuống dòng khi không gian container không đủ */
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid blue;
+}
+
+.item-1 {
+  order: 1; /* Sắp xếp thứ tự hiển thị của flex item */
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+  flex: 1;
+}
+
+.item-2 {
+  order: 2;
+  flex: 2;
+}
+
+.item-3 {
+  order: 3;
+  flex: 1.5;
+}
+
+.item-4 {
+  order: 4;
+}
+
+.item-5 {
+  order: 5;
+  flex: 2;
+}

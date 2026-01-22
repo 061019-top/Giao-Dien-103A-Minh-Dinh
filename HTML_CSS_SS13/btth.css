@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+.list-link {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.link {
+    text-decoration: none;
+    color: #cccccc81;
+}
+.main {
+    width: 100%;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D6EFD;
+}
+.hero h2{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 46px;
+}
+h2 + p{
+    color: #87C3FF;
+    margin: 12px 0 32px;
+}
+button{
+    width: 154px;
+    height: 50px;
+    margin-bottom: 48px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #271953;
+}
+.tap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:6.7%;
+    margin-top: 60px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    margin: 40px 0 10px;
+}
+h3 + p{
+    color: #505E61;
+}
+.form {
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+input{
+    width: 30%;
+    margin: 10px;
+    height: 36px;
+    padding: 10px;
+    border: 1px solid #E9EBEE;
+    border-radius: 8px;
+}
+input[type="submit"]{
+    background-color: #198754;
+    color: #DCEAD2;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: #fff;
+    height: 50px;
+}
+

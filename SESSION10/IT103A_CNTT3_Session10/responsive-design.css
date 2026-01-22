@@ -1,0 +1,31 @@
+.heading {
+  color: red;
+}
+
+/* Giành cho thiết bị mobile */
+@media screen and (max-width: 480px) {
+  .heading {
+    color: blue;
+  }
+}
+
+/* 481 – 768px: Tablets & larger smartphones */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .heading {
+    color: green;
+  }
+}
+
+/* 769 – 1279px: Laptops, tablets landscape, small desktops */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .heading {
+    color: brown;
+  }
+}
+
+/* 1280px+: Large desktops & monitors */
+@media screen and (min-width: 1280px) {
+  .heading {
+    color: yellow;
+  }
+}

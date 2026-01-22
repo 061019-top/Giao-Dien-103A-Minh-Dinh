@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+/* Khối trên */
+.container {
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #2f6bff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    color: #4d7cff;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.image-box img {
+    width: 500px;
+    max-width: 90%;
+    border-radius: 4px;
+}
+
+/* Khối cơ sở */
+.locations {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.locations h2 {
+    color: #3b82ff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.locations p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.locations .red {
+    color: red;
+}
+
+.locations .decoration {
+    text-decoration: underline;
+}
+
+.locations .strong {
+    font-weight: bolder;
+}
