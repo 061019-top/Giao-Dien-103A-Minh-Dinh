@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header span{
+    margin:  38px 0;
+    font-size: 25px;
+    word-spacing: 15px;
+}
+.list-card {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.card img{
+    object-fit: cover;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 322px;
+    border-radius: 4px;
+    margin-top: 30px;
+
+}
+.name-product {
+    font-weight: 700;
+}
+.price {
+    color: #DB4444;
+}
+.star {
+    margin: 0 5px;
+}
+.mua {
+    color: gray;
+}
