@@ -1,0 +1,266 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px 0;
+
+}
+.logo {
+
+}
+.list_link {
+    display: flex;
+    gap: 60px;
+}
+.link_header {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 180%;
+    text-decoration: none;
+    color: #151411;
+
+}
+
+
+.action {
+    display: flex;
+    gap:24px;
+}
+.main {
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom:  2px solid #F3F3F3;
+}
+.title_banner {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 130%;
+    margin-top: 100px;
+}
+.slogan {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 180%;
+    color: #AFADB5;
+    margin: 20px 0 50px;
+    text-align: center;
+}
+.slogan+img{
+    width: 100%;
+}
+.infor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card_infor {
+    width: 400px;
+    height: 242px;
+}
+.title_infor {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 130%;
+    color: #518581;
+
+}
+.about {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #151411;
+
+}
+.description_infor {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 180%;
+    color: #AFADB5;
+
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.header_service {
+    display: flex;
+    justify-content: space-between;
+    gap: 244px;
+    margin: 217px 250px 0;
+}
+.header_service_left {
+    width: 491px;
+}
+.name_service {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFB23F;
+
+}
+.title_service {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+    line-height: 130%;
+
+}
+.header_service_right{
+    width: 505px;
+    
+}
+.header_service_right p{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 180%;
+    color: #AFADB5;
+    margin-bottom: 50px;
+}
+.header_service_right a{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #518581;
+    text-decoration: none;
+
+
+}
+.content_service {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.content_service_left {
+    background-image: url(./img/Rectangle\ 40.png);
+    width: 505px;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.content_service_right {
+    
+}
+.content_service_right_top {
+    background-image: url(./img/Rectangle\ 38.png);
+    width: 705px;
+    height: 301px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    
+}
+.content_service_right_bottom {
+    background-image: url(./img/Rectangle\ 39.png);
+    width: 705px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+
+
+}
+.content_service h3{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 1%;
+    color: #fff;
+}
+h3 + p{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 180%;
+    color: #bbb3b3;
+    margin: 6px 0 12px;
+}
+.content_service p:nth-child(3) {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 180%;
+    color: #fff;
+}
+.more {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+    margin-top: 218px;
+    margin-bottom: 110px;
+}
+.header_more {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+    line-height: 130%;
+    width: 394px;
+    height: 114px;
+
+}
+.button_more {
+    width: 201px;
+    height: 53px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #518581;
+    border: 0;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #fff;
+
+}
+footer{
+    border-top: 2px solid #AFADB5;
+    display: flex;
+}
+.footer_left {
+    width: 40%;
+}
+.footer_right {
+    width: 60%;
+    display: flex;
+    gap:10px;
+}
+.footer_right_card {
+    width: 20%;
+}
